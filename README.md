@@ -1,12 +1,10 @@
 # T10: Oh, the Places You'll Go!
 
 
-Name 1: ____________
+Name 1: Rebekah Whitford
 
-Name 2: ____________
+Name 2: Jacob Hill
 
-Name 3 (if needed): ____________
+Repository Link: https://github.com/fall-2018-csc-226/t10-oh-the-places-you-ll-go-whitfordr-jacobh-t010.git
 
-Repository Link: ______________
-
-Google Document Link: ______________
+Google Document Link: https://docs.google.com/document/d/1EPdmp-MZMZIQ6gJTZKPyoKWlATq1iqIIeWrG9oC_b7Y/edit?usp=sharing
