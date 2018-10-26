@@ -1,6 +1,6 @@
 ######################################################################
-# Author: Emily Lovell & Scott Heggen      TODO: Change this to your names
-# Username: lovelle & heggens             TODO: Change this to your usernames
+# Author: Rebekah Whitford & Jacob Hill
+# Username: WhitfordR & HillJ
 #
 # Assignment: T10: Oh, the Places You'll Go!
 #
@@ -88,18 +88,17 @@ def extract_place(file_content):
     :return: a tuple representing a single place.
     """
 
-    # TODO   Read the next five lines of the file, we've done the first one for you (name = ...).
-    # TODO   The order of the lines are: name, location, latitude, longitude, and user color.
-    # TODO   Take a look at places.txt to see the structure of the data.
-    # TODO   Just like above (line 37), you need to remove the last character (\n).
+
     # TODO   Once you've got the code working for all five lines, add a conditional that checks to see if
     # TODO   the line starts with a #; if it does, ignore that line.
 
-    name = file_content.readline().strip("\n")
+    name = file_content.readline().strip("\n") #The variable which takes the names of the people
+    location = file_content.readline().strip("\n") # the variable which takes the locations
+    latitude = float(file_content.readline().strip("\n")) #the variable which takes the latitude
+    longitude = float(file_content.readline().strip("\n")) #The variable which takes the longitude
+    user_color = file_content.readline().strip("\n") # the variable which takes the color
 
-    # FIXME Construct a tuple with all five values in the correct order. Don't forget types, and tuples are immutable!
-    # Example: place_tuple = ("Scott's example", "Somewhere special", 41, -10, "black")
-    place_tuple = (name, )      # Finish assembling the tuple!
+    place_tuple = (name, location, latitude, longitude, user_color)      # the tuple which takes the location, name, and color variables
     return place_tuple
 
 

@@ -1,23 +1,23 @@
 4
-Scott
-Hometown: New Virginia, IA
-41.156537
--93.7107200
-darkblue
-Scott
-Awesome city: Edinburgh, Scotland
-55.950190
--3.187550
-lightgreen
-Emily
-Hometown: Pittsburgh, PA
-40.932850
--80.358543
-orange
-Emily
-Most Interesting Place: Reykjavik, Iceland
-64.147210
--21.942400
+Rebekah
+Hometown: Louisville, KY
+38.252700
+-85.758500
+purple
+Rebekah's most interesting
+Munich, Germany
+48.135100
+11.582000
+orchid
+Jacob
+Hometown: Berea, KY
+37.585875
+-84.286747
+black
+Jacob's most interesting
+Naka, Japan
+36.457500
+140.486900
 red
 
 
