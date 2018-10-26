@@ -92,13 +92,12 @@ def extract_place(file_content):
     # TODO   Once you've got the code working for all five lines, add a conditional that checks to see if
     # TODO   the line starts with a #; if it does, ignore that line.
 
-    name = file_content.readline().strip("\n")
-    location = file_content.readline().strip("\n")
-    latitude = float(file_content.readline().strip("\n"))
-    longitude = float(file_content.readline().strip("\n"))
-    user_color = file_content.readline().strip("\n")
+    name = file_content.readline().strip("\n") #The variable which takes the names of the people
+    location = file_content.readline().strip("\n") # the variable which takes the locations
+    latitude = float(file_content.readline().strip("\n")) #the variable which takes the latitude
+    longitude = float(file_content.readline().strip("\n")) #The variable which takes the longitude
+    user_color = file_content.readline().strip("\n") # the variable which takes the color
 
-    # FIXME Construct a tuple with all five values in the correct order. Don't forget types, and tuples are immutable!
     # Example: place_tuple = ("Scott's example", "Somewhere special", 41, -10, "black")
     place_tuple = (name, location, latitude, longitude, user_color)      # Finish assembling the tuple!
     return place_tuple
