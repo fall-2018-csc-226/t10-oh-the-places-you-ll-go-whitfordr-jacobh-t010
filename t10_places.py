@@ -98,8 +98,7 @@ def extract_place(file_content):
     longitude = float(file_content.readline().strip("\n")) #The variable which takes the longitude
     user_color = file_content.readline().strip("\n") # the variable which takes the color
 
-    # Example: place_tuple = ("Scott's example", "Somewhere special", 41, -10, "black")
-    place_tuple = (name, location, latitude, longitude, user_color)      # Finish assembling the tuple!
+    place_tuple = (name, location, latitude, longitude, user_color)      # the tuple which takes the location, name, and color variables
     return place_tuple
 
 
